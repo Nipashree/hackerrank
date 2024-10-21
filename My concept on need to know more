@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include<math.h>
+
+int main(){
+    int a,b,sum,diff;
+    printf("ENTER 2 INTEGERS:");
+    scanf("%d,%d",&a,&b);
+    sum=a+b;
+    printf("Sum:%d",sum);
+    
+    diff=a-b;
+    printf("%d",diff);
+    
+    float p,q,add,sub;
+    printf("ENTER 2 FLOAT VALUES:");
+    scanf("%f,%f",&p,&q);
+    add=p+q;
+    printf("%f",add);
+    sub=p-q;
+    printf("Sub:%f",sub);
+}
