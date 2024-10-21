@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int int1, int2;
+    float float1, float2;
+
+    // Read two integers
+    scanf("%d %d", &int1, &int2);
+    
+    // Read two floats
+    scanf("%f %f", &float1, &float2);
+
+    // Calculate sum and difference for integers
+    int int_sum = int1 + int2;
+    int int_difference = int1 - int2;
+
+    // Calculate sum and difference for floats
+    float float_sum = float1 + float2;
+    float float_difference = float1 - float2;
+
+    // Print results
+    printf("%d\n", int_sum);
+    printf("%d\n", int_difference);
+    printf("%.1f\n", float_sum);
+    printf("%.1f\n", float_difference);
+
+    return 0;
+}
